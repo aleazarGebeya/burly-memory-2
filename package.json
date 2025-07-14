@@ -4,11 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "next build --no-lint",
+    "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "build:with-lint": "next build",
-    "build:fast": "next build --no-lint --turbo"
+    "lint": "next lint"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.1.1",
